@@ -1,0 +1,111 @@
+
+/*HEADER*/
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+    background-color: #fcfcfc;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+.main-nav--link {
+    flex: 1;
+    text-align: center;   
+    font-size: 1.2em;
+
+}
+.main-header{
+    background-color: blanchedalmond;
+
+}
+.main-nav{
+    margin-top: 5px;
+}
+
+.main-nav a{
+    background-color: #5e5f60;
+    padding: 0px;
+    margin: 0px;
+}
+
+.name, .main-nav a{
+    text-align: center;
+    display: block;
+    
+    /*padding: 10px 15px;*/
+}
+
+.name{
+    font-size: 1.8em;
+    padding: 0;
+}
+.main-nav .active{
+    color: #fff;
+    background: #aeb7c4;
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*Screens above 769px*/
+@media screen and (min-width: 769px) {
+    .main-header,
+    .main-nav {
+        width: 100%;
+        display: flex;
+    }
+
+    .main-header{
+        flex-direction: column;
+        align-items: center;
+        
+    }   
+    .name{
+        background-color:white;
+    }
+    .main-nav{
+        
+        padding-right: 0px;
+    }
+}
+
+/*Screens above 1025px*/
+@media (min-width: 1025px){
+    .main-header,
+    .main-nav,
+    .name{
+        width: 100%; 
+        display: flex;
+        margin: 0px;
+    }
+
+    .main-header{
+        
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .name{
+        margin-right: auto;
+        padding-left: 25px;
+    }
+    main-nav{
+        align-self: flex-end;
+    }
+}
+
+/*HEADER END*/
+

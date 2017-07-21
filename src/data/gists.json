@@ -1,0 +1,20 @@
+{
+    "gists": {
+        "gist": [
+            {
+                "id": 0,
+                "url": "https://github.com/ij2827/mp3Convert",
+                "title": "mp3Convert",
+                "about": "Converts a bundle of WAV files in a folder into mp3s.",
+                "tools": ["Java", "FFMPEG"]
+            },
+            {
+                "id": 1,
+                "url": "https://github.com/ij2827/serv0",
+                "title": "serv0",
+                "about": "A simple Express server API connected to a database.",
+                "tools": ["Javascript", "NodeJs", "Express", "mongodb"]
+            } 
+        ]
+    }
+}
