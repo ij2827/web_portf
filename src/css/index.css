@@ -22,7 +22,10 @@
     color: var(--main-bg-white);
 }
 
-
+/*Adjust background color for page*/
+.app ,html{
+    background-color: #578CA9;
+}
 /*Content*/
 .container{
     
@@ -52,15 +55,15 @@
     flex-wrap: wrap;
     margin: 5px 2px;
     border-radius: 3px;
-    flex-basis: 400px;
+    flex-basis: 200px;
+    
     
 }
 
 .gist--image{
     margin: 10px;
-    /*width: 150px;*/
-    flex: 0 0 200px;
-    height: 100px;
+    flex: 0 0 50px;
+    height: 25px;;
     background-color: grey;
     overflow: hidden;
     
@@ -69,7 +72,7 @@
     max-height: 100%;
     display: block;
     margin: auto;
-    width: 200px;
+    width: 50px;;
 }
 
 .gist--tools{
@@ -92,7 +95,7 @@
 
 /*gist title, icons, paragraph*/
 .gist--content-container{
-    width: 400px;
+    width: 350px;
     display: flex;
     align-items: flex-start;
 }
@@ -114,7 +117,9 @@
         margin: 10px auto;
         align-content: center;
     }
-
+    .gist--content-container{
+        width: 300px;
+    }
 }
 /*Gists End*/
 /*Content END*/
