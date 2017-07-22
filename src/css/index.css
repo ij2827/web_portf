@@ -21,11 +21,18 @@
     background-color: #92B558;
     color: var(--main-bg-white);
 }
-
+body{
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    color: #3a3a3a;
+    margin: 0;
+}
 /*Adjust background color for page*/
 .app ,html{
     background-color: #578CA9;
 }
+
+
 /*Content*/
 .container{
     
