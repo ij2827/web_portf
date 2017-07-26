@@ -18,27 +18,26 @@ let toolCreate = (lang) => {
 }
 
 const Gist = (props) => (
-    <div className="gist">
+    <a href={props.url} target="_blank" className="gist">
         
         <div className="gist--content-container">
 
             <div className="gist--tools">
                 <h2>{props.title}</h2>
+                
                 {props.tools.map((tool) => 
                     toolCreate(tool)
                 )}
+                <div className="divider"></div>
             </div>
            
             <div className="gist--content">{props.about}</div>
         </div>
         
         <div className="divider"></div>
-        <div className="gist--content-github">
-                <a className="gist--link" href={props.url} target="_blank">Github link</a>
-        <div className="gist--image"><img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"></img></div>
-        </div>
+        <div className="gist--url">{props.url}</div>
         
-    </div>
+    </a>
 );
 
 export default Gist;

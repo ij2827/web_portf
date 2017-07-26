@@ -3,7 +3,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 //App components
 import Home from './home/Home';
-import About from './About';
+import Work from './Work';
 import Header from './Header';
 
 const AppRouter = () => (
@@ -14,7 +14,7 @@ const AppRouter = () => (
             <Header />
             <div className="container--body">
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={() => <About />} />
+                <Route path="/about" component={() => <Work />} />
                 
                 
             </div>
