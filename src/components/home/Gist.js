@@ -19,8 +19,7 @@ let toolCreate = (lang) => {
 
 const Gist = (props) => (
     <div className="gist">
-        <div className="gist--title"></div>
-        <div className="gist--image"><img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"></img></div>
+        
         <div className="gist--content-container">
 
             <div className="gist--tools">
@@ -32,7 +31,13 @@ const Gist = (props) => (
            
             <div className="gist--content">{props.about}</div>
         </div>
-    
+        
+        <div className="divider"></div>
+        <div className="gist--content-github">
+                <a className="gist--link" href={props.url} target="_blank">Github link</a>
+        <div className="gist--image"><img src="https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"></img></div>
+        </div>
+        
     </div>
 );
 
