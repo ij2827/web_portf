@@ -3,9 +3,9 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 //App components
 import Home from './home/Home';
-import Work from './Work';
+import Work from './work/Work';
 import Header from './Header';
-
+import Contact from './contact/Contact'
 const AppRouter = () => (
 
     
@@ -14,8 +14,8 @@ const AppRouter = () => (
             <Header />
             <div className="container--body">
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={() => <Work />} />
-                
+                <Route path="/work" component={() => <Work />} />
+                <Route path="/contact" component={Contact} />
                 
             </div>
         </div>

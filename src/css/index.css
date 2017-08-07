@@ -19,7 +19,7 @@
 }
 .bg-green{
     background-color: #92B558;
-    color: var(--main-bg-white);
+    color: #3a3a3a;
 }
 body{
      font-family: 'Varela Round', sans-serif; 
@@ -30,7 +30,7 @@ body{
 }
 /*Adjust background color for page*/
 .app ,html{
-    background-color: #578CA9;
+    background-color: #16232A;
 }
 
 
@@ -46,6 +46,7 @@ body{
 
 .container--body{
     padding: 25px 25px;
+    padding-bottom: 200px;
 
 }
 
@@ -127,6 +128,7 @@ body{
 }
 .gist--url{
     color: #dbc98c;
+
 }
 /*Mobile*/
 @media screen and (max-width: 769px) {
@@ -141,8 +143,25 @@ body{
         align-content: center;
     }
     .gist--content-container{
-        width: 300px;
+        width: 75vw;
     }
 }
 /*Gists End*/
 /*Content END*/
+
+/*Contact*/
+
+.contact--links{
+    margin-top: 25px;
+    font-size: 2em;
+}
+
+.contact--link{
+    margin-top: 25px;
+    font-family: 'Varela Round', sans-serif; 
+    text-decoration: none;
+    color: #0645AD;
+    font-weight: bold;
+}
+
+/*Contact END*/

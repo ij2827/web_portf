@@ -2,12 +2,12 @@ import React from 'react';
 
 //Creates a label for Gist languages and adjusts color
 let toolCreate = (lang) => {
-    
-    if(lang.toLowerCase() === "java"){
+    lang = lang.toLowerCase();
+    if(lang.toLowerCase() === "java" || lang === "react"){
         return <div key={lang} className="gist--tools-tool bg-blue">{lang}</div>
     } else  if( lang.toLowerCase() === "javascript"  ){
         return <div key={lang} className="gist--tools-tool bg-yellow">{lang}</div>
-    } else if(  lang.toLowerCase() === "nodejs" ||
+    } else if(  lang.toLowerCase() === "node" ||
                 lang.toLowerCase() === "express" ||
                 lang.toLowerCase() === "mongodb"  ){
         return <div key={lang} className="gist--tools-tool bg-green">{lang}</div>
