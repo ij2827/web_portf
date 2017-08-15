@@ -33,7 +33,9 @@ body{
     background-color: #16232A;
 }
 
-
+p{
+    padding-top: 10px;
+}
 
 /*Content*/
 .container{
