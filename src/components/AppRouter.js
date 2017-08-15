@@ -12,7 +12,7 @@ const AppRouter = () => (
     <BrowserRouter>
         <div className='container'>
             <Header />
-            <div className="container--body">
+            <div className="container--body">     
                 <Route exact path="/" component={Home} />
                 <Route path="/work" component={() => <Work />} />
                 <Route path="/contact" component={Contact} />
