@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {BrowserRouter, Route, HashRouter} from 'react-router-dom';
 
 //App components
 import Home from './home/Home';
@@ -9,17 +9,17 @@ import Contact from './contact/Contact'
 const AppRouter = () => (
 
     
-    <BrowserRouter>
+    <HashRouter>
         <div className='container'>
             <Header />
             <div className="container--body">     
-                <Route exact path="/" component={Home} />
+                <Route path="/" component={Home} />
                 <Route path="/work" component={() => <Work />} />
                 <Route path="/contact" component={Contact} />
                 
             </div>
         </div>
-    </BrowserRouter>
+    </HashRouter>
     
 );
 
