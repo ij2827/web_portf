@@ -13,7 +13,7 @@ const AppRouter = () => (
         <div className='container'>
             <Header />
             <div className="container--body">     
-                <Route path="/" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route path="/work" component={() => <Work />} />
                 <Route path="/contact" component={Contact} />
                 

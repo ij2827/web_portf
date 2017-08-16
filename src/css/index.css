@@ -35,6 +35,11 @@ body{
 
 p{
     padding-top: 10px;
+    /*font-size: 20px;
+    font-size: 1.75em;*/
+}
+.main-content > h2{
+    font-size: 2.75em;
 }
 
 /*Content*/
@@ -72,17 +77,15 @@ p{
     flex: 1 0;
     
 }
-
 /* individual gists */
 .gist{
     background-color: #333333; 
-    color: var(--main-bg-white);
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     flex-wrap: wrap;
     margin: 5px 2px;
     border-radius: 5px;
-    flex-basis: 200px;
+    width: 300px;
     padding: 25px 20px 10px 20px;
     align-items: center;
     color: #d1d1d1;
@@ -99,6 +102,7 @@ p{
 
 .gist--tools{
     display: flex;
+    display: -webkit-flex;
     /*justify-content: flex-start;*/
     margin-left: 8px;
     flex-wrap: wrap;
@@ -120,6 +124,7 @@ p{
 .gist--content-container{
     width: 350px;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     margin-bottom: 165px;
     
