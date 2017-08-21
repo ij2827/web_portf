@@ -43,6 +43,23 @@ p{
 }
 
 /*Content*/
+/*Home Page*/
+.language-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "title title title"
+                         "list  list list";
+}
+.container h3{
+    grid-area: title;
+}
+.language-list{
+    padding: 10px;
+}
+
+/*Home Page End*/
+
+
 .container{
     font-family: 'Archivo Narrow', sans-serif;
     width: 90%;
@@ -153,7 +170,7 @@ p{
         width: 75vw;
     }
 }
-/*Gists End*/
+/*-Gists End*/
 /*Content END*/
 
 /*Contact*/

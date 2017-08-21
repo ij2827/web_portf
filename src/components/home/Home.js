@@ -7,12 +7,44 @@ const Home = () => (
         <div className="divider"></div>
         <p>Hello!</p>
         <p>My name is Ivan Jaimes and I am a recent Graduate from Stephen F. Austin State University with a Bachelors of Music with emphases in Sound Recording Technology. During my time in University, I was involved as Recording Crew Manager for the School of Music and Sound Engineer for the School of Theatres Voice-Over class.
- <br /></p>
-        <p>Along with a love for music, I have a strong passion with computers. My love for technology started when I was around 14. My little cousin forgot his password to his computer and had no way in logging in. Having a basic knowledge of Linux, I remembered that there was a Linux Distro called Backtrack full of hacking tools. With the help of Backtrack and a lot of patience, I was able to unlock his computer by changing his password. This had me hooked and eventually led to me learning how to program.
- <br /></p>
-        <p>During my senior year of college, I decided that I wanted to work with computers. So I started to focus my time learning Java and Python. Then I moved on to Web Development in which I learned HTML, CSS, Javascript, Jquery, and Bootstrap. After learning the basics of Front-End Web Development, I moved towards the backend by learning NodeJs, Express, MongoDB, and React Js. 
- <br /></p>
-        
+        <br /></p>
+        <p>During my junior year of college I decided that I wanted to become a Web Developer and started to refocus my time learning Java, Python, and the Front-End stack. After learning how to develop the Front-End, I continued learning more backend frameworks such as NodeJs, Express, MongoDB, and React Js. Along the way I took Java classes in college, learning about data structures and algorithms, and read many programming books! 
+        <br /><br /></p>
+        <div className="divider"></div>
+        <a className="contact--link" href="https://github.com/ij2872">https://github.com/ij2872</a>
+        <br /> 
+        <br />
+        <div className="language-container">
+            <h3>Languages</h3>
+            <ul className="language-list">
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+                <li>ES6</li>                
+                <li>Sass</li>                
+                <li>Bootstrap</li>
+                <li>JQuery</li>    
+            </ul>
+            <ul className="language-list">
+                <li>Node Js</li>
+                <li>Express</li>
+                <li>React</li>
+                <li>React-Router</li>
+                <li>MongodDB</li> 
+                <li>Npm & Yarn</li>    
+                   
+            </ul> 
+            <ul className="language-list">
+                <li>Java</li>
+                <li>Python</li>
+                <li>BS4 - Web Scraping</li>                
+                <li>Linux</li>
+                <li>Shell Scripting</li>
+                <li>Git</li>                                        
+                <li>Rest API</li>                                        
+            </ul>  
+            
+        </div>
         
     </div>
 );

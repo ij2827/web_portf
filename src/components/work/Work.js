@@ -7,6 +7,8 @@ const Work = () => (
     <div className="divider"></div>
     <br />
     <Gists />
+
+
     </div>
 );
 
