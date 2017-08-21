@@ -26243,7 +26243,7 @@ NavLink.defaultProps = {
 
 
 Object.defineProperty(exports, "__esModule", {
-       value: true
+    value: true
 });
 
 var _react = __webpack_require__(6);
@@ -26253,39 +26253,163 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home() {
-       return _react2.default.createElement(
-              "div",
-              { className: "main-content" },
-              _react2.default.createElement(
-                     "h2",
-                     null,
-                     "Home"
-              ),
-              _react2.default.createElement("div", { className: "divider" }),
-              _react2.default.createElement(
-                     "p",
-                     null,
-                     "Hello!"
-              ),
-              _react2.default.createElement(
-                     "p",
-                     null,
-                     "My name is Ivan Jaimes and I am a recent Graduate from Stephen F. Austin State University with a Bachelors of Music with emphases in Sound Recording Technology. During my time in University, I was involved as Recording Crew Manager for the School of Music and Sound Engineer for the School of Theatres Voice-Over class.",
-                     _react2.default.createElement("br", null)
-              ),
-              _react2.default.createElement(
-                     "p",
-                     null,
-                     "Along with a love for music, I have a strong passion with computers. My love for technology started when I was around 14. My little cousin forgot his password to his computer and had no way in logging in. Having a basic knowledge of Linux, I remembered that there was a Linux Distro called Backtrack full of hacking tools. With the help of Backtrack and a lot of patience, I was able to unlock his computer by changing his password. This had me hooked and eventually led to me learning how to program.",
-                     _react2.default.createElement("br", null)
-              ),
-              _react2.default.createElement(
-                     "p",
-                     null,
-                     "During my senior year of college, I decided that I wanted to work with computers. So I started to focus my time learning Java and Python. Then I moved on to Web Development in which I learned HTML, CSS, Javascript, Jquery, and Bootstrap. After learning the basics of Front-End Web Development, I moved towards the backend by learning NodeJs, Express, MongoDB, and React Js.",
-                     _react2.default.createElement("br", null)
-              )
-       );
+    return _react2.default.createElement(
+        "div",
+        { className: "main-content" },
+        _react2.default.createElement(
+            "h2",
+            null,
+            "Home"
+        ),
+        _react2.default.createElement("div", { className: "divider" }),
+        _react2.default.createElement(
+            "p",
+            null,
+            "Hello!"
+        ),
+        _react2.default.createElement(
+            "p",
+            null,
+            "My name is Ivan Jaimes and I am a recent Graduate from Stephen F. Austin State University with a Bachelors of Music with emphases in Sound Recording Technology. During my time in University, I was involved as Recording Crew Manager for the School of Music and Sound Engineer for the School of Theatres Voice-Over class.",
+            _react2.default.createElement("br", null)
+        ),
+        _react2.default.createElement(
+            "p",
+            null,
+            "During my junior year of college I decided that I wanted to become a Web Developer and started to refocus my time learning Java, Python, and the Front-End stack. After learning how to develop the Front-End, I continued learning more backend frameworks such as NodeJs, Express, MongoDB, and React Js. Along the way I took Java classes in college, learning about data structures and algorithms, and read many programming books!",
+            _react2.default.createElement("br", null),
+            _react2.default.createElement("br", null)
+        ),
+        _react2.default.createElement("div", { className: "divider" }),
+        _react2.default.createElement(
+            "a",
+            { className: "contact--link", href: "https://github.com/ij2872" },
+            "https://github.com/ij2872"
+        ),
+        _react2.default.createElement("br", null),
+        _react2.default.createElement("br", null),
+        _react2.default.createElement(
+            "div",
+            { className: "language-container" },
+            _react2.default.createElement(
+                "h3",
+                null,
+                "Languages"
+            ),
+            _react2.default.createElement(
+                "ul",
+                { className: "language-list" },
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Html"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Css"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Javascript"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "ES6"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Sass"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Bootstrap"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "JQuery"
+                )
+            ),
+            _react2.default.createElement(
+                "ul",
+                { className: "language-list" },
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Node Js"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Express"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "React"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "React-Router"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "MongodDB"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Npm & Yarn"
+                )
+            ),
+            _react2.default.createElement(
+                "ul",
+                { className: "language-list" },
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Java"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Python"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "BS4 - Web Scraping"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Linux"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Shell Scripting"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Git"
+                ),
+                _react2.default.createElement(
+                    "li",
+                    null,
+                    "Rest API"
+                )
+            )
+        )
+    );
 };
 
 exports.default = Home;
@@ -26483,7 +26607,7 @@ module.exports = {
 		"gist": [
 			{
 				"id": 0,
-				"url": "https://github.com/ij2827/web_portf",
+				"url": "https://github.com/ij2872/web_portf",
 				"title": "Portfolio Website",
 				"about": "Personal Portfolio website built using React and React-Router",
 				"tools": [
@@ -26494,7 +26618,7 @@ module.exports = {
 			},
 			{
 				"id": 2,
-				"url": "https://ij2827.github.io/react_music_search/",
+				"url": "https://ij2872.github.io/react_music_search/",
 				"title": "React Music Search",
 				"about": "React built music searching app. Uses the disconnect api to gather artist data from Discogs.com",
 				"tools": [
@@ -26505,7 +26629,7 @@ module.exports = {
 			},
 			{
 				"id": 1,
-				"url": "https://github.com/ij2827/serv0",
+				"url": "https://github.com/ij2872/serv0",
 				"title": "serv0",
 				"about": "A simple Express server API that is connected to a Mongodb databected to a Mongodb database.",
 				"tools": [
@@ -26625,7 +26749,7 @@ var Contact = function Contact() {
             _react2.default.createElement("br", null),
             _react2.default.createElement(
                 "a",
-                { className: "contact--link", href: "https://github.com/ij2827" },
+                { className: "contact--link", href: "https://github.com/ij2872" },
                 "Github"
             ),
             _react2.default.createElement("br", null),
@@ -26680,7 +26804,7 @@ exports = module.exports = __webpack_require__(96)(undefined);
 
 
 // module
-exports.push([module.i, "/*!Mobile First Approach!*/\n\n:root {\n  --main-bg-white: #fcfcfc;\n}\n\n/*background-color classes*/\n.bg-yellow{\n    background-color: #F6D155;\n    color: #090900;\n}\n.bg-blue{\n    background-color: #578CA9;\n    color: var(--main-bg-white);\n}\n.bg-red{\n    background-color: #F2552C;\n    color: var(--main-bg-white);\n}\n.bg-green{\n    background-color: #92B558;\n    color: #3a3a3a;\n}\nbody{\n     font-family: 'Varela Round', sans-serif; \n     /* font-family: 'Archivo Narrow', sans-serif;  */\n    line-height: 1.6;\n    color: #3a3a3a;\n    margin: 0;\n}\n/*Adjust background color for page*/\n.app ,html{\n    background-color: #16232A;\n}\n\np{\n    padding-top: 10px;\n    /*font-size: 20px;\n    font-size: 1.75em;*/\n}\n.main-content > h2{\n    font-size: 2.75em;\n}\n\n/*Content*/\n.container{\n    font-family: 'Archivo Narrow', sans-serif;\n    width: 90%;\n    margin: 10px auto;\n    background-color: var(--main-bg-white);\n    \n}\n\n.container--body{\n    padding: 25px 25px;\n    padding-bottom: 200px;\n\n}\n\n.divider{\n    height: 1px;\n    width: 85%;\n    margin: 20px 0;\n    padding-left: 15%;\n    /* flex-grow: 1; */\n    background-color: #d1d1d1;\n\n}\n\n/*Gists main container*/\n.gist--main{\n    margin-top: 50px;\n    display: flex;\n    align-items: stretch;\n    flex-wrap: wrap; \n    justify-content: center;\n    flex: 1 0;\n    \n}\n/* individual gists */\n.gist{\n    background-color: #333333; \n    display: flex;\n    /*flex-direction: column;*/\n    flex-wrap: wrap;\n    margin: 5px 2px;\n    border-radius: 5px;\n    width: 300px;\n    padding: 25px 20px 10px 20px;\n    align-items: center;\n    color: #d1d1d1;\n}\n\n.gist:hover{\n    animation: hoverfade .2s forwards;\n    \n}\n\n@keyframes hoverfade{\n    100% {background-color: #212121;color: #ffffff;}\n}\n\n.gist--tools{\n    display: flex;\n    display: -webkit-flex;\n    /*justify-content: flex-start;*/\n    margin-left: 8px;\n    flex-wrap: wrap;\n    margin-bottom: 10px;\n}\n\n.gist--tools-tool{\n    margin-top: 10px;\n    margin-left: 10px;\n    width: auto;\n    height: 20px;\n    padding: 0 5px;\n    border-radius: 3px;\n    font-size: .8em;\n    \n}\n\n/*gist title, icons, paragraph*/\n.gist--content-container{\n    width: 350px;\n    display: flex;\n    display: -webkit-flex;\n    flex-direction: column;\n    margin-bottom: 165px;\n    \n}\n/*gist text content*/\n.gist--content{\n    margin: 5px;\n}\n.gist--url{\n    color: #dbc98c;\n\n}\n/*Mobile*/\n@media screen and (max-width: 769px) {\n    .gist{\n        flex-wrap: wrap;\n        \n    }\n\n    \n    .gist--image{\n        margin: 10px auto;\n        align-content: center;\n    }\n    .gist--content-container{\n        width: 75vw;\n    }\n}\n/*Gists End*/\n/*Content END*/\n\n/*Contact*/\n\n.contact--links{\n    margin-top: 25px;\n    font-size: 2em;\n}\n\n.contact--link{\n    margin-top: 25px;\n    font-family: 'Varela Round', sans-serif; \n    text-decoration: none;\n    color: #0645AD;\n    font-weight: bold;\n}\n\n/*Contact END*/\n", ""]);
+exports.push([module.i, "/*!Mobile First Approach!*/\n\n:root {\n  --main-bg-white: #fcfcfc;\n}\n\n/*background-color classes*/\n.bg-yellow{\n    background-color: #F6D155;\n    color: #090900;\n}\n.bg-blue{\n    background-color: #578CA9;\n    color: var(--main-bg-white);\n}\n.bg-red{\n    background-color: #F2552C;\n    color: var(--main-bg-white);\n}\n.bg-green{\n    background-color: #92B558;\n    color: #3a3a3a;\n}\nbody{\n     font-family: 'Varela Round', sans-serif; \n     /* font-family: 'Archivo Narrow', sans-serif;  */\n    line-height: 1.6;\n    color: #3a3a3a;\n    margin: 0;\n}\n/*Adjust background color for page*/\n.app ,html{\n    background-color: #16232A;\n}\n\np{\n    padding-top: 10px;\n    /*font-size: 20px;\n    font-size: 1.75em;*/\n}\n.main-content > h2{\n    font-size: 2.75em;\n}\n\n/*Content*/\n/*Home Page*/\n.language-container{\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-areas: \"title title title\"\n                         \"list  list list\";\n}\n.container h3{\n    grid-area: title;\n}\n.language-list{\n    padding: 10px;\n}\n\n/*Home Page End*/\n\n\n.container{\n    font-family: 'Archivo Narrow', sans-serif;\n    width: 90%;\n    margin: 10px auto;\n    background-color: var(--main-bg-white);\n    \n}\n\n.container--body{\n    padding: 25px 25px;\n    padding-bottom: 200px;\n\n}\n\n.divider{\n    height: 1px;\n    width: 85%;\n    margin: 20px 0;\n    padding-left: 15%;\n    /* flex-grow: 1; */\n    background-color: #d1d1d1;\n\n}\n\n/*Gists main container*/\n.gist--main{\n    margin-top: 50px;\n    display: flex;\n    align-items: stretch;\n    flex-wrap: wrap; \n    justify-content: center;\n    flex: 1 0;\n    \n}\n/* individual gists */\n.gist{\n    background-color: #333333; \n    display: flex;\n    /*flex-direction: column;*/\n    flex-wrap: wrap;\n    margin: 5px 2px;\n    border-radius: 5px;\n    width: 300px;\n    padding: 25px 20px 10px 20px;\n    align-items: center;\n    color: #d1d1d1;\n}\n\n.gist:hover{\n    animation: hoverfade .2s forwards;\n    \n}\n\n@keyframes hoverfade{\n    100% {background-color: #212121;color: #ffffff;}\n}\n\n.gist--tools{\n    display: flex;\n    display: -webkit-flex;\n    /*justify-content: flex-start;*/\n    margin-left: 8px;\n    flex-wrap: wrap;\n    margin-bottom: 10px;\n}\n\n.gist--tools-tool{\n    margin-top: 10px;\n    margin-left: 10px;\n    width: auto;\n    height: 20px;\n    padding: 0 5px;\n    border-radius: 3px;\n    font-size: .8em;\n    \n}\n\n/*gist title, icons, paragraph*/\n.gist--content-container{\n    width: 350px;\n    display: flex;\n    display: -webkit-flex;\n    flex-direction: column;\n    margin-bottom: 165px;\n    \n}\n/*gist text content*/\n.gist--content{\n    margin: 5px;\n}\n.gist--url{\n    color: #dbc98c;\n\n}\n/*Mobile*/\n@media screen and (max-width: 769px) {\n    .gist{\n        flex-wrap: wrap;\n        \n    }\n\n    \n    .gist--image{\n        margin: 10px auto;\n        align-content: center;\n    }\n    .gist--content-container{\n        width: 75vw;\n    }\n}\n/*-Gists End*/\n/*Content END*/\n\n/*Contact*/\n\n.contact--links{\n    margin-top: 25px;\n    font-size: 2em;\n}\n\n.contact--link{\n    margin-top: 25px;\n    font-family: 'Varela Round', sans-serif; \n    text-decoration: none;\n    color: #0645AD;\n    font-weight: bold;\n}\n\n/*Contact END*/\n", ""]);
 
 // exports
 
