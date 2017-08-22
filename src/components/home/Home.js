@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {NavLink} from 'react-router-dom';
 
 const Home = () => (
     <div className="main-content">
@@ -12,6 +12,8 @@ const Home = () => (
         <br /><br /></p>
         <div className="divider"></div>
         <a className="contact--link" href="https://github.com/ij2872">https://github.com/ij2872</a>
+        <br />
+        <NavLink to="/calculator"><h3>>Latest Project</h3></NavLink>     
         <br /> 
         <br />
         <div className="language-container">

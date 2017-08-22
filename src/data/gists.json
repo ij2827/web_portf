@@ -5,8 +5,15 @@
                 "id": 0,
                 "url": "https://github.com/ij2872/web_portf",
                 "title": "Portfolio Website",
-                "about": "Personal Portfolio website built using React and React-Router",
+                "about": "Personal Portfolio website built using React and React-Router.",
                 "tools": ["Node", "React", "React-Router"]
+            },
+            {
+                "id": 1,
+                "url": "https://github.com/ij2872/react_calc",
+                "title": "React Calculator",
+                "about": "A calculator web app built on React JS.",
+                "tools": ["Javascript", "React"]
             },
             {
                 "id": 2,
@@ -14,14 +21,9 @@
                 "title": "React Music Search",
                 "about": "React built music searching app. Uses the disconnect api to gather artist data from Discogs.com",
                 "tools": ["Javascript", "NodeJs", "React"]
-            },
-            {
-                "id": 1,
-                "url": "https://github.com/ij2872/serv0",
-                "title": "serv0",
-                "about": "A simple Express server API that is connected to a Mongodb databected to a Mongodb database.",
-                "tools": ["Javascript", "NodeJs", "Express", "mongodb"]
             }
+            
+            
             
         ]
     }
