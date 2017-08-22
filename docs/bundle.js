@@ -26916,7 +26916,7 @@ var componentName = function (_Component) {
                     case "+":
                         this.setState({
                             displayValue: tempValue ? String(parseFloat(displayValue) + parseFloat(tempValue)) : String(parseFloat(prevValue) + parseFloat(displayValue)),
-                            tempValue: tempValue ? tempValue : displayValue
+                            tempValue: tempValue ? tempValue : prevValue
                         });
                         break;
                     case "-":
