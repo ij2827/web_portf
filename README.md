@@ -1,7 +1,7 @@
 # web_portf
 ###### Personal Portfolio Website
 
-To visit my portfolio website [Click Here](https://ij2827.github.io/web_portf/).
+To visit my portfolio website [Click Here](https://ij2872.github.io/web_portf/).
 
 ## Libraries Used
 - Node js
