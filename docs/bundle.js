@@ -26283,7 +26283,7 @@ var Home = function Home() {
         _react2.default.createElement(
             'p',
             null,
-            'During my junior year of college I decided that I wanted to become a Web Developer and started to refocus my time learning Java, Python, and the Front-End stack. After learning how to develop the Front-End, I continued learning more backend frameworks such as NodeJs, Express, MongoDB, and React Js. Along the way I took Java classes in college, learning about data structures and algorithms, and read many programming books!',
+            'During my junior year of college I decided that I wanted to become a Software Developer and started to refocus my time learning Java, Python, and the Front-End stack. After learning how to develop the Front-End, I continued learning more backend frameworks such as NodeJs, Express, MongoDB, and React Js. Along the way I took Java classes in college and upper level math. During my own time, I started to learn more about data structures & algorithms and now I am looking for a full time position!',
             _react2.default.createElement('br', null),
             _react2.default.createElement('br', null)
         ),
