@@ -12,7 +12,7 @@ const Work = () => (
     <Row>
         <Col md={6}>
             <a className="work-mock-link" href="https://github.com/ij2872/aspnet-FakeBank">
-                <img src="./images/fakeBank.jpg"  width="100%" height="270"/>
+                <img src="https://raw.githubusercontent.com/ij2872/aspnet-FakeBank/master/imgs/AppProgress1.0.JPG"  width="100%" height="270"/>
             </a>
         </Col>
         <br/>
