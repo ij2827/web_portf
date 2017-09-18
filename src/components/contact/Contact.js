@@ -9,7 +9,7 @@ const Contact = () => (
             <br / >  
             <a className="contact--link" href="https://github.com/ij2872">Github</a>
             <br / >  
-            <a className="contact--link" href="https://soundcloud.com/elesion">Soundcloud</a>
+            
         </div>
 
 
