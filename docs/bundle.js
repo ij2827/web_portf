@@ -33890,7 +33890,7 @@ var Work = function Work() {
                 _react2.default.createElement(
                     'a',
                     { className: 'work-mock-link', href: 'https://github.com/ij2872/aspnet-FakeBank' },
-                    _react2.default.createElement('img', { src: './images/fakeBank.jpg', width: '100%', height: '270' })
+                    _react2.default.createElement('img', { src: 'https://raw.githubusercontent.com/ij2872/aspnet-FakeBank/master/imgs/AppProgress1.0.JPG', width: '100%', height: '270' })
                 )
             ),
             _react2.default.createElement('br', null),
