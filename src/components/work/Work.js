@@ -10,9 +10,9 @@ const Work = () => (
     <div className="divider"></div>
     <br />
     <Row>
-        <Col md={6}>
+        <Col md={5} mdOffset={1}>
             <a className="work-mock-link" href="https://github.com/ij2872/aspnet-FakeBank">
-                <img src="https://raw.githubusercontent.com/ij2872/aspnet-FakeBank/master/imgs/AppProgress1.0.JPG"  width="100%" height="270"/>
+                <img src="https://raw.githubusercontent.com/ij2872/aspnet-FakeBank/master/imgs/img 1.JPG"  width="100%" height="270"/>
             </a>
         </Col>
         <br/>
@@ -24,7 +24,7 @@ const Work = () => (
     </Row>
     <div className="divider"></div>
     <Row>
-        <Col md={6}>
+        <Col md={5} mdOffset={1}>
             <a className="work-mock-link" href="https://ij2872.github.io/Website_Mockup/">
                 <img src="./images/webMock.png"  width="100%" height="270"/>
             </a>
