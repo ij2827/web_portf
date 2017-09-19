@@ -33919,7 +33919,7 @@ var Work = function Work() {
                 _react2.default.createElement(
                     'p',
                     null,
-                    'Built on the .Net Framework, Fake Valley Bank app allows user to sign up and create an account. Users can deposit/withdraw in to their account. The balance of the customer is kept in a SQL server with a Customer Table and Transactions Table. Data is retrived/updated with the EntityFramework or and AJAX request to the /API/ of the server.'
+                    'Built on the .Net Framework, Fake Valley Bank app allows user to sign up and create an account. Users can deposit/withdraw in to their account. The balance of the customer is kept in a SQL server with a Customer Table and Transactions Table. Data is retrived/updated with the EntityFramework or an AJAX request to the /API/ of the server.'
                 )
             )
         ),
