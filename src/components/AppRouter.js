@@ -13,7 +13,7 @@ const AppRouter = () => (
 
     
     <HashRouter>
-        <div className='container'>
+        <div className='mycontainer'>
             <Header />
             <div className="container--body">     
                 <Route exact path="/" component={Home} />

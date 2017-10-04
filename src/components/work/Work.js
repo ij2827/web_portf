@@ -10,6 +10,24 @@ const Work = () => (
     <div className="divider"></div>
     <br />
     <Row>
+    <Col md={5} mdOffset={1}>
+        <a className="work-mock-link" href="https://github.com/ij2872/MyHabbits">
+            <img src="https://raw.githubusercontent.com/ij2872/MyHabbits/master/MyHabbits/gitImgs/myHabbitsHome.JPG"  width="100%" height="270"/>
+        </a>
+    </Col>
+    <br/>
+    <Col md={6}>
+        <h3>MyHabbits <small><a href="https://github.com/ij2872/MyHabbits">Link to Code</a></small></h3>
+        <i>Front-End (Razor | Bootstrap | AJAX | Javascript)</i>
+        <br />
+        <i>Back-End (ASP.NET MVC & SQL)</i>
+        <p>Built using C# ASP.NET, My Habbits is a CRUD application that allows users to create, read, update, and delete tasks.</p>
+        <p>Each task is saved onto a Microsoft Azure hosted MSSQL Database. Each task that a user completes will be saved to a completed_history table, with the use of Microsoft SQL Server 2016. An SQL query runs at the end of the day. This query saves all completed tasks to the completed_history table and resets data from the tasks table.
+        </p>
+    </Col>
+    </Row>
+    <div className="divider"></div>
+    <Row>
         <Col md={5} mdOffset={1}>
             <a className="work-mock-link" href="https://github.com/ij2872/aspnet-FakeBank">
                 <img src="https://raw.githubusercontent.com/ij2872/aspnet-FakeBank/master/imgs/img 1.JPG"  width="100%" height="270"/>

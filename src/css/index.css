@@ -40,10 +40,10 @@ p{
     font-size: 1.5em;
 }
 li{
-    font-size: 1.4vw;
+    /* font-size: 1.4vw; */
 }
 h3{
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
 }
 .main-content > h2{
     font-size: 2.75em;
@@ -56,7 +56,10 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "title title title"
-                         "list  list list";
+                         "list list list";
+}
+.language-container h3{
+    height: 10px;
 }
 .container h3{
     grid-area: title;
@@ -68,10 +71,10 @@ h3{
 /*Home Page End*/
 
 
-.container{
+.mycontainer{
     font-family: 'Archivo Narrow', sans-serif;
-    width: 100%;
-    /* margin: 10px auto; */
+    width: 90%;
+    margin: 10px auto;
     background-color: var(--main-bg-white);
     padding: 0px;
 }
@@ -91,11 +94,18 @@ h3{
     background-color: #d1d1d1;
 
 }
-
+.work--link a{
+    margin: 0 10px;
+}
+.work--link:hover{
+    cursor: pointer;
+}
 /* WORK */
 .work-mock-link img{
     border: solid black 5px;
     border-radius: 4px;
+    height: calc(40%);
+    margin: 0 auto;
 }
 
 

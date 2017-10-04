@@ -37,7 +37,7 @@ a{
 .main-nav a{
     background-color: #5e5f60;
     color: #fff;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 0px;
 }
 
@@ -79,12 +79,16 @@ a{
         display: flex;
     
     }
+    .main-nav a{
+        margin: 0px;
+        padding: 0px;
+    }
 
     .main-header{
         flex-direction: column;
         align-items: center;
         background: #3a3a3a;
-        
+        margin: 0;
         
     }   
     .main-nav--link:nth-child(2){
@@ -97,7 +101,7 @@ a{
         
     }
     .main-nav{
-        
+        margin: 0px;
         padding-right: 0px;
     }
 }
@@ -128,6 +132,10 @@ a{
         padding-left: 25px;
         color: #ffffff;
         background: #3a3a3a;
+    }
+    .main-nav a{
+        margin: 0px;
+        padding: 10px;
     }
     main-nav{
         align-self: flex-end;

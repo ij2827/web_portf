@@ -31329,7 +31329,7 @@ var AppRouter = function AppRouter() {
         null,
         _react2.default.createElement(
             'div',
-            { className: 'container' },
+            { className: 'mycontainer' },
             _react2.default.createElement(_Header2.default, null),
             _react2.default.createElement(
                 'div',
@@ -33706,13 +33706,13 @@ var Home = function Home() {
         _react2.default.createElement(
             'p',
             null,
-            'During my junior year of college I decided that I wanted to become a Software Developer and started to refocus my time learning Java, Python, and the Front-End stack. After learning how to develop the Front-End, I continued learning more backend frameworks such as NodeJs, Express, and MongoDB. After working on node for a while, I moved on to creating apps with the C# ASP.NET MVC stack with an SQL database. I am currently learning, creating, and working on Leetcode & Firecode problems!',
+            'My name is Ivan, I am a self-taught developer focusing on the Full-Stack of Development. I have always had a passion for programming and am currently available for a Full Time position.',
             _react2.default.createElement('br', null),
             _react2.default.createElement('br', null)
         ),
         _react2.default.createElement(
             'div',
-            { className: 'work--link' },
+            { className: 'work--link text-center' },
             _react2.default.createElement(
                 'a',
                 { href: 'https://github.com/ij2872' },
@@ -33729,13 +33729,13 @@ var Home = function Home() {
         _react2.default.createElement('br', null),
         _react2.default.createElement('br', null),
         _react2.default.createElement(
+            'h3',
+            null,
+            'Languages'
+        ),
+        _react2.default.createElement(
             'div',
             { className: 'language-container' },
-            _react2.default.createElement(
-                'h3',
-                null,
-                'Languages'
-            ),
             _react2.default.createElement(
                 'ul',
                 { className: 'language-list' },
@@ -33830,7 +33830,7 @@ var Home = function Home() {
                 _react2.default.createElement(
                     'li',
                     null,
-                    'mySQL'
+                    'MSSQL'
                 ),
                 _react2.default.createElement(
                     'li',
@@ -33881,6 +33881,60 @@ var Work = function Work() {
         ),
         _react2.default.createElement('div', { className: 'divider' }),
         _react2.default.createElement('br', null),
+        _react2.default.createElement(
+            _reactBootstrap.Row,
+            null,
+            _react2.default.createElement(
+                _reactBootstrap.Col,
+                { md: 5, mdOffset: 1 },
+                _react2.default.createElement(
+                    'a',
+                    { className: 'work-mock-link', href: 'https://github.com/ij2872/MyHabbits' },
+                    _react2.default.createElement('img', { src: 'https://raw.githubusercontent.com/ij2872/MyHabbits/master/MyHabbits/gitImgs/myHabbitsHome.JPG', width: '100%', height: '270' })
+                )
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+                _reactBootstrap.Col,
+                { md: 6 },
+                _react2.default.createElement(
+                    'h3',
+                    null,
+                    'MyHabbits ',
+                    _react2.default.createElement(
+                        'small',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { href: 'https://github.com/ij2872/MyHabbits' },
+                            'Link to Code'
+                        )
+                    )
+                ),
+                _react2.default.createElement(
+                    'i',
+                    null,
+                    'Front-End (Razor | Bootstrap | AJAX | Javascript)'
+                ),
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'i',
+                    null,
+                    'Back-End (ASP.NET MVC & SQL)'
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    'Built using C# ASP.NET, My Habbits is a CRUD application that allows users to create, read, update, and delete tasks.'
+                ),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    'Each task is saved onto a Microsoft Azure hosted MSSQL Database. Each task that a user completes will be saved to a completed_history table, with the use of Microsoft SQL Server 2016. An SQL query runs at the end of the day. This query saves all completed tasks to the completed_history table and resets data from the tasks table.'
+                )
+            )
+        ),
+        _react2.default.createElement('div', { className: 'divider' }),
         _react2.default.createElement(
             _reactBootstrap.Row,
             null,
@@ -46153,7 +46207,7 @@ exports = module.exports = __webpack_require__(134)(undefined);
 
 
 // module
-exports.push([module.i, "/*!Mobile First Approach!*/\n\n:root {\n  --main-bg-white: #fcfcfc;\n}\n\n/*background-color classes*/\n.bg-yellow{\n    background-color: #F6D155;\n    color: #090900;\n}\n.bg-blue{\n    background-color: #578CA9;\n    color: var(--main-bg-white);\n}\n.bg-red{\n    background-color: #F2552C;\n    color: var(--main-bg-white);\n}\n.bg-green{\n    background-color: #92B558;\n    color: #3a3a3a;\n}\nbody{\n     font-family: 'Varela Round', sans-serif; \n     /* font-family: 'Archivo Narrow', sans-serif;  */\n    line-height: 1.6;\n    color: #3a3a3a;\n    margin: 0;\n}\n\n\n/*Adjust background color for page*/\n.app ,html{\n    background-color: #16232A;\n}\n\np{\n    padding-top: 10px;\n    font-size: 1.5em;\n}\nli{\n    font-size: 1.4vw;\n}\nh3{\n    font-size: 2.5vw;\n}\n.main-content > h2{\n    font-size: 2.75em;\n}\n\n\n/*Content*/\n/*Home Page*/\n.language-container{\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-areas: \"title title title\"\n                         \"list  list list\";\n}\n.container h3{\n    grid-area: title;\n}\n.language-list{\n    padding: 10px;\n}\n\n/*Home Page End*/\n\n\n.container{\n    font-family: 'Archivo Narrow', sans-serif;\n    width: 100%;\n    /* margin: 10px auto; */\n    background-color: var(--main-bg-white);\n    padding: 0px;\n}\n\n.container--body{\n    padding: 25px 25px;\n    padding-bottom: 200px;\n\n}\n\n.divider{\n    height: 1px;\n    width: 90%;\n    margin: 20px auto;\n    padding-left: 15%;\n    /* flex-grow: 1; */\n    background-color: #d1d1d1;\n\n}\n\n/* WORK */\n.work-mock-link img{\n    border: solid black 5px;\n    border-radius: 4px;\n}\n\n\n\n/*Gists main container*/\n.gist--main{\n    margin-top: 50px;\n    display: flex;\n    align-items: stretch;\n    flex-wrap: wrap; \n    justify-content: center;\n    flex: 1 0;\n    \n}\n/* individual gists */\n.gist{\n    background-color: #333333; \n    display: flex;\n    /*flex-direction: column;*/\n    flex-wrap: wrap;\n    margin: 5px 2px;\n    border-radius: 5px;\n    width: 300px;\n    padding: 25px 20px 10px 20px;\n    align-items: center;\n    color: #d1d1d1;\n}\n\n.gist:hover{\n    animation: hoverfade .2s forwards;\n    \n}\n\n@keyframes hoverfade{\n    100% {background-color: #212121;color: #ffffff;}\n}\n\n.gist--tools{\n    display: flex;\n    display: -webkit-flex;\n    /*justify-content: flex-start;*/\n    margin-left: 8px;\n    flex-wrap: wrap;\n    margin-bottom: 10px;\n}\n\n.gist--tools-tool{\n    margin-top: 10px;\n    margin-left: 10px;\n    width: auto;\n    height: 20px;\n    padding: 0 5px;\n    border-radius: 3px;\n    font-size: .8em;\n    \n}\n\n/*gist title, icons, paragraph*/\n.gist--content-container{\n    width: 350px;\n    display: flex;\n    display: -webkit-flex;\n    flex-direction: column;\n    margin-bottom: 165px;\n    \n}\n/*gist text content*/\n.gist--content{\n    margin: 5px;\n}\n.gist--url{\n    color: #dbc98c;\n\n}\n/*Mobile*/\n@media screen and (max-width: 769px) {\n    .gist{\n        flex-wrap: wrap;\n        \n    }\n\n    \n    .gist--image{\n        margin: 10px auto;\n        align-content: center;\n    }\n    .gist--content-container{\n        width: 75vw;\n    }\n}\n/*-Gists End*/\n/*Content END*/\n\n/*Contact*/\n\n.contact--links{\n    margin-top: 25px;\n    font-size: 2em;\n}\n\n.contact--link{\n    margin-top: 25px;\n    font-family: 'Varela Round', sans-serif; \n    text-decoration: none;\n    color: #0645AD;\n    font-weight: bold;\n}\n\n/*Contact END*/\n", ""]);
+exports.push([module.i, "/*!Mobile First Approach!*/\n\n:root {\n  --main-bg-white: #fcfcfc;\n}\n\n/*background-color classes*/\n.bg-yellow{\n    background-color: #F6D155;\n    color: #090900;\n}\n.bg-blue{\n    background-color: #578CA9;\n    color: var(--main-bg-white);\n}\n.bg-red{\n    background-color: #F2552C;\n    color: var(--main-bg-white);\n}\n.bg-green{\n    background-color: #92B558;\n    color: #3a3a3a;\n}\nbody{\n     font-family: 'Varela Round', sans-serif; \n     /* font-family: 'Archivo Narrow', sans-serif;  */\n    line-height: 1.6;\n    color: #3a3a3a;\n    margin: 0;\n}\n\n\n/*Adjust background color for page*/\n.app ,html{\n    background-color: #16232A;\n}\n\np{\n    padding-top: 10px;\n    font-size: 1.5em;\n}\nli{\n    /* font-size: 1.4vw; */\n}\nh3{\n    /* font-size: 2.5vw; */\n}\n.main-content > h2{\n    font-size: 2.75em;\n}\n\n\n/*Content*/\n/*Home Page*/\n.language-container{\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    grid-template-areas: \"title title title\"\n                         \"list list list\";\n}\n.language-container h3{\n    height: 10px;\n}\n.container h3{\n    grid-area: title;\n}\n.language-list{\n    padding: 10px;\n}\n\n/*Home Page End*/\n\n\n.mycontainer{\n    font-family: 'Archivo Narrow', sans-serif;\n    width: 90%;\n    margin: 10px auto;\n    background-color: var(--main-bg-white);\n    padding: 0px;\n}\n\n.container--body{\n    padding: 25px 25px;\n    padding-bottom: 200px;\n\n}\n\n.divider{\n    height: 1px;\n    width: 90%;\n    margin: 20px auto;\n    padding-left: 15%;\n    /* flex-grow: 1; */\n    background-color: #d1d1d1;\n\n}\n.work--link a{\n    margin: 0 10px;\n}\n.work--link:hover{\n    cursor: pointer;\n}\n/* WORK */\n.work-mock-link img{\n    border: solid black 5px;\n    border-radius: 4px;\n    height: calc(40%);\n    margin: 0 auto;\n}\n\n\n\n/*Gists main container*/\n.gist--main{\n    margin-top: 50px;\n    display: flex;\n    align-items: stretch;\n    flex-wrap: wrap; \n    justify-content: center;\n    flex: 1 0;\n    \n}\n/* individual gists */\n.gist{\n    background-color: #333333; \n    display: flex;\n    /*flex-direction: column;*/\n    flex-wrap: wrap;\n    margin: 5px 2px;\n    border-radius: 5px;\n    width: 300px;\n    padding: 25px 20px 10px 20px;\n    align-items: center;\n    color: #d1d1d1;\n}\n\n.gist:hover{\n    animation: hoverfade .2s forwards;\n    \n}\n\n@keyframes hoverfade{\n    100% {background-color: #212121;color: #ffffff;}\n}\n\n.gist--tools{\n    display: flex;\n    display: -webkit-flex;\n    /*justify-content: flex-start;*/\n    margin-left: 8px;\n    flex-wrap: wrap;\n    margin-bottom: 10px;\n}\n\n.gist--tools-tool{\n    margin-top: 10px;\n    margin-left: 10px;\n    width: auto;\n    height: 20px;\n    padding: 0 5px;\n    border-radius: 3px;\n    font-size: .8em;\n    \n}\n\n/*gist title, icons, paragraph*/\n.gist--content-container{\n    width: 350px;\n    display: flex;\n    display: -webkit-flex;\n    flex-direction: column;\n    margin-bottom: 165px;\n    \n}\n/*gist text content*/\n.gist--content{\n    margin: 5px;\n}\n.gist--url{\n    color: #dbc98c;\n\n}\n/*Mobile*/\n@media screen and (max-width: 769px) {\n    .gist{\n        flex-wrap: wrap;\n        \n    }\n\n    \n    .gist--image{\n        margin: 10px auto;\n        align-content: center;\n    }\n    .gist--content-container{\n        width: 75vw;\n    }\n}\n/*-Gists End*/\n/*Content END*/\n\n/*Contact*/\n\n.contact--links{\n    margin-top: 25px;\n    font-size: 2em;\n}\n\n.contact--link{\n    margin-top: 25px;\n    font-family: 'Varela Round', sans-serif; \n    text-decoration: none;\n    color: #0645AD;\n    font-weight: bold;\n}\n\n/*Contact END*/\n", ""]);
 
 // exports
 
@@ -46198,7 +46252,7 @@ exports = module.exports = __webpack_require__(134)(undefined);
 
 
 // module
-exports.push([module.i, "\n/*HEADER*/\n*{\n    margin: 0;\n}\nhtml{\n    font-size: 1em;\n}\nul {\n    padding: 0;\n    list-style-type: none;\n}\n\na{\n    text-decoration: none;\n    font-size: 1em;\n}\n\n\n.main-header{\n    background-color: #3a3a3a; \n    width: 100%;\n    font-size: 1.5em;\n}\n\n.main-nav{\n    margin-top: 5px;\n    padding: 0;\n}\n\n.main-nav--link {\n    flex: 1;\n    text-align: center;   \n    font-size: 1.2em;\n}\n\n.main-nav a{\n    background-color: #5e5f60;\n    color: #fff;\n    padding: 10px;\n    margin: 0px;\n}\n\n.name, .main-nav a{\n    text-align: center;\n    display: block;\n    \n    /*padding: 10px 15px;*/\n}\n\n.name{\n    font-size: 1.8em;\n    padding: 0;\n    color: #ffffff;\n    background-color: #3a3a3a;\n    \n    \n}\n\n/* Highlight active page link */\n.main-nav .active{\n    color: #fff;\n    /* background: #aeb7c4; */\n    background: #4C7B94;\n}\n\n.main-header{\n    width: 100%;\n}\n\n\n/*MEDIA QUERIES*/\n\n/*Screens above 769px*/\n@media screen and (min-width: 769px) {\n    .main-header,\n    .main-nav {\n        width: 100%;\n        display: flex;\n    \n    }\n\n    .main-header{\n        flex-direction: column;\n        align-items: center;\n        background: #3a3a3a;\n        \n        \n    }   \n    .main-nav--link:nth-child(2){\n        border-left:  solid #3a3a3a 5px;\n        border-right: solid #3a3a3a 5px;\n    }\n    .name{\n        background-color:#3a3a3a;\n        color: #ffffff;\n        \n    }\n    .main-nav{\n        \n        padding-right: 0px;\n    }\n}\n\n/*Screens above 1025px*/\n@media (min-width: 1025px){\n    .main-header,\n    .main-nav,\n    .name{\n        width: 100%; \n        display: flex;\n        margin: 0px;\n        \n    }\n\n    .main-header{\n        flex-direction: row;\n        justify-content: space-around;\n        background: #3a3a3a;\n        \n    }\n    .main-nav--link:nth-child(1){\n        /* border-left:  solid #21353F 5px; */\n        \n    }\n    .name{\n        margin-right: auto;\n        padding-left: 25px;\n        color: #ffffff;\n        background: #3a3a3a;\n    }\n    main-nav{\n        align-self: flex-end;\n    }\n}\n\n/*HEADER END*/\n\n", ""]);
+exports.push([module.i, "\n/*HEADER*/\n*{\n    margin: 0;\n}\nhtml{\n    font-size: 1em;\n}\nul {\n    padding: 0;\n    list-style-type: none;\n}\n\na{\n    text-decoration: none;\n    font-size: 1em;\n}\n\n\n.main-header{\n    background-color: #3a3a3a; \n    width: 100%;\n    font-size: 1.5em;\n}\n\n.main-nav{\n    margin-top: 5px;\n    padding: 0;\n}\n\n.main-nav--link {\n    flex: 1;\n    text-align: center;   \n    font-size: 1.2em;\n}\n\n.main-nav a{\n    background-color: #5e5f60;\n    color: #fff;\n    /* padding: 10px; */\n    margin: 0px;\n}\n\n.name, .main-nav a{\n    text-align: center;\n    display: block;\n    \n    /*padding: 10px 15px;*/\n}\n\n.name{\n    font-size: 1.8em;\n    padding: 0;\n    color: #ffffff;\n    background-color: #3a3a3a;\n    \n    \n}\n\n/* Highlight active page link */\n.main-nav .active{\n    color: #fff;\n    /* background: #aeb7c4; */\n    background: #4C7B94;\n}\n\n.main-header{\n    width: 100%;\n}\n\n\n/*MEDIA QUERIES*/\n\n/*Screens above 769px*/\n@media screen and (min-width: 769px) {\n    .main-header,\n    .main-nav {\n        width: 100%;\n        display: flex;\n    \n    }\n    .main-nav a{\n        margin: 0px;\n        padding: 0px;\n    }\n\n    .main-header{\n        flex-direction: column;\n        align-items: center;\n        background: #3a3a3a;\n        margin: 0;\n        \n    }   \n    .main-nav--link:nth-child(2){\n        border-left:  solid #3a3a3a 5px;\n        border-right: solid #3a3a3a 5px;\n    }\n    .name{\n        background-color:#3a3a3a;\n        color: #ffffff;\n        \n    }\n    .main-nav{\n        margin: 0px;\n        padding-right: 0px;\n    }\n}\n\n/*Screens above 1025px*/\n@media (min-width: 1025px){\n    .main-header,\n    .main-nav,\n    .name{\n        width: 100%; \n        display: flex;\n        margin: 0px;\n        \n    }\n\n    .main-header{\n        flex-direction: row;\n        justify-content: space-around;\n        background: #3a3a3a;\n        \n    }\n    .main-nav--link:nth-child(1){\n        /* border-left:  solid #21353F 5px; */\n        \n    }\n    .name{\n        margin-right: auto;\n        padding-left: 25px;\n        color: #ffffff;\n        background: #3a3a3a;\n    }\n    .main-nav a{\n        margin: 0px;\n        padding: 10px;\n    }\n    main-nav{\n        align-self: flex-end;\n    }\n}\n\n/*HEADER END*/\n\n", ""]);
 
 // exports
 
