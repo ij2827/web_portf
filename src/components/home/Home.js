@@ -5,6 +5,8 @@ const Home = () => (
     <div className="main-content">
         <h2>Home</h2>
         <div className="divider"></div>
+        <h3>Check out my new Portfolio Website at <a href="https://ij2872.github.io/portfolio/">https://ij2872.github.io/portfolio/</a></h3>
+
         <p>Hello!</p>
         {/*<p>My name is Ivan Jaimes and I am a recent Graduate from Stephen F. Austin State University with a Bachelors of Music with emphases in Sound Recording Technology. During my time in University, I was involved as Recording Crew Manager for the School of Music and Sound Engineer for the School of Theatres Voice-Over class. <br /></p> */}
         

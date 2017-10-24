@@ -33699,6 +33699,16 @@ var Home = function Home() {
         ),
         _react2.default.createElement('div', { className: 'divider' }),
         _react2.default.createElement(
+            'h3',
+            null,
+            'Check out my new Portfolio Website at ',
+            _react2.default.createElement(
+                'a',
+                { href: 'https://ij2872.github.io/portfolio/' },
+                'https://ij2872.github.io/portfolio/'
+            )
+        ),
+        _react2.default.createElement(
             'p',
             null,
             'Hello!'
